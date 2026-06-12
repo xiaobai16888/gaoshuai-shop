@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高帅环球商店 | Wholesale & Retail Daily Goods</title>
+    <meta name="description" content="Professional cross-border department store supplier, factory direct daily necessities, kitchenware, hardware wholesale, global shipping support.">
+    <meta name="keywords" content="cross-border wholesale,daily goods,home supplies,kitchen products,hardware tools,bulk supply">
+    <style>
+        * {margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+        html {scroll-behavior:smooth}
+        body {background:#f5f7fa;color:#333;line-height:1.7}
+        .container {width:92%;max-width:1250px;margin:0 auto}
+        /* 导航栏 */
+        header {width:100%;position:fixed;top:0;left:0;z-index:999;background:rgba(0,0,0,0.25);transition:0.3s}
+        header.sticky {background:#fff;box-shadow:0 2px 12px rgba(0,0,0,0.07)}
+        .nav-box {height:75px;display:flex;align-items:center;justify-content:space-between}
+        .logo {font-size:24px;font-weight:bold;color:#fff;text-decoration:none}
+        header.sticky .logo {color:#0066cc}
+        .nav-menu a {color:#fff;text-decoration:none;margin:0 16px;font-size:15px}
+        header.sticky .nav-menu a {color:#333}
+        .nav-menu a:hover {color:#0099ff}
+        .mobile-menu-btn {display:none;color:#fff;font-size:26px}
+        /* 首屏横幅 */
+        .hero {width:100%;height:100vh;background:linear-gradient(135deg,#0052cc,#0099ff);display:flex;align-items:center}
+        .hero-text {color:#fff;max-width:700px}
+        .hero-text h1 {font-size:46px;margin-bottom:20px}
+        .hero-text p {font-size:17px;opacity:0.95;margin-bottom:32px}
+        .btn {display:inline-block;padding:12px 30px;border-radius:30px;text-decoration:none;font-weight:600;margin-right:14px;transition:0.3s}
+        .btn-primary {background:#fff;color:#0066cc}
+        .btn-primary:hover {background:#f0f7ff;transform:translateY(-2px)}
+        .btn-outline {border:2px solid #fff;color:#fff;background:transparent}
+        .btn-outline:hover {background:#fff;color:#0066cc;transform:translateY(-2px)}
+        /* 通用区块 */
+        .section {padding:80px 0;background:#fff}
+        .section-bg {background:#f5f7fa}
+        .title-box {text-align:center;margin-bottom:50px}
+        .title-box h2 {font-size:32px;color:#111;margin-bottom:10px}
+        .title-box p {color:#666;font-size:16px}
+        /* 优势板块 */
+        .adv-grid {display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+        .adv-card {padding:32px 22px;background:#f5f7fa;border-radius:12px;text-align:center;transition:0.3s}
+        .adv-card:hover {box-shadow:0 8px 26px rgba(0,102,204,0.1);transform:translateY(-5px)}
+        .adv-card h3 {font-size:18px;margin:14px 0 10px;color:#0066cc}
+        .adv-card p {color:#555;font-size:14px}
+        /* 产品卡片 */
+        .cate-grid {display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+        .cate-card {padding:35px 22px;background:#fff;border-radius:12px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.05);transition:0.3s}
+        .cate-card:hover {background:#0066cc;color:#fff}
+        .cate-card:hover p {color:#f0f7ff}
+        .cate-card h3 {font-size:19px;margin-bottom:10px}
+        .cate-card p {color:#666;font-size:14px;line-height:1.6}
+        /* 关于我们 */
+        .about-grid {display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+        .about-text h3 {font-size:24px;margin-bottom:20px;color:#111}
+        .about-text p {color:#555;margin-bottom:14px;font-size:15px}
+        /* 联系信息 */
+        .contact-info {text-align:center;font-size:17px;color:#444}
+        .contact-info p {margin:10px 0}
+        /* 页脚 */
+        footer {background:#0a192f;color:#aaa;text-align:center;padding:32px 0;font-size:14px}
+        /* 移动端适配 */
+        @media(max-width:768px){
+            .nav-menu {display:none}
+            .mobile-menu-btn {display:block}
+            .hero-text h1 {font-size:30px}
+            .adv-grid {grid-template-columns:repeat(2,1fr)}
+            .cate-grid {grid-template-columns:repeat(2,1fr)}
+            .about-grid {grid-template-columns:1fr}
+        }
+        @media(max-width:480px){
+            .adv-grid,.cate-grid {grid-template-columns:1fr}
+            .btn {margin-bottom:12px}
+        }
+    </style>
+</head>
+<body>
+<!-- 导航栏 -->
+<header id="navbar">
+    <div class="container nav-box">
+        <a href="#" class="logo">高帅环球商店</a>
+        <nav class="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#hot">Best Sellers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="mobile-menu-btn">≡</div>
+    </div>
+</header>
+
+<!-- 首页横幅 -->
+<section class="hero" id="home">
+    <div class="container hero-text">
+        <h1>One-Stop Cross-Border Department Store Supplier</h1>
+        <p>We supply full range daily goods, kitchenware, home storage, stationery & hardware. Factory direct price, worldwide shipping, support small trial orders & bulk wholesale for global retailers.</p>
+        <div>
+            <a href="#products" class="btn btn-primary">View All Products</a>
+            <a href="#contact" class="btn btn-outline">Get Quotation</a>
+        </div>
+    </div>
+</section>
+
+<!-- 核心优势 -->
+<section class="section">
+    <div class="container">
+        <div class="title-box">
+            <h2>Our Advantages</h2>
+            <p>Reliable long-term wholesale partner for cross-border merchants</p>
+        </div>
+        <div class="adv-grid">
+            <div class="adv-card">
+                <h3>Factory Direct Supply</h3>
+                <p>No middle markup, stable stock for continuous large orders</p>
+            </div>
+            <div class="adv-card">
+                <h3>Competitive Wholesale Price</h3>
+                <p>Bigger order gets bigger discount, boost your profit margin</p>
+            </div>
+            <div class="adv-card">
+                <h3>Full Category Coverage</h3>
+                <p>One-stop purchasing for daily, kitchen, storage & hardware goods</p>
+            </div>
+            <div class="adv-card">
+                <h3>Global Logistics</h3>
+                <p>Sea / Air / Express shipping to all countries worldwide</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 全部产品分类（带批发价） -->
+<section class="section section-bg" id="products">
+    <div class="container">
+        <div class="title-box">
+            <h2>Product Categories</h2>
+            <p>Hot cross-border wholesale goods with clear price range</p>
+        </div>
+        <div class="cate-grid">
+            <div class="cate-card">
+                <h3>Daily Necessities</h3>
+                <p>Wholesale: $1.2–$8.9<br>Cleaning supplies, personal care disposables</p>
+            </div>
+            <div class="cate-card">
+                <h3>Home Storage Supplies</h3>
+                <p>Wholesale: $3.5–$22.0<br>Storage bins, organizers, home textile</p>
+            </div>
+            <div class="cate-card">
+                <h3>Kitchen Tableware</h3>
+                <p>Wholesale: $2.6–$18.5<br>Drain racks, cooking tools, table sets</p>
+            </div>
+            <div class="cate-card">
+                <h3>Stationery & Sports</h3>
+                <p>Wholesale: $0.8–$12.3<br>Office stationery, small outdoor goods</p>
+            </div>
+            <div class="cate-card">
+                <h3>Hardware Hand Tools</h3>
+                <p>Wholesale: $4.2–$35.8<br>Household repair kits, small hardware parts</p>
+            </div>
+            <div class="cate-card">
+                <h3>Custom Private Label</h3>
+                <p>Price Negotiable<br>Custom package & logo for long cooperation</p>
+            </div>
+            <div class="cate-card">
+                <h3>Kitchen Drain Rack Set</h3>
+                <p>Wholesale: $3.9–$12.5<br>Multi-size family kitchen storage rack</p>
+            </div>
+            <div class="cate-card">
+                <h3>Foldable Waterproof Box</h3>
+                <p>Wholesale: $4.6–$18.8<br>Outdoor & home folding storage container</p>
+            </div>
+            <div class="cate-card">
+                <h3>Disposable Dust Wipes</h3>
+                <p>Wholesale: $1.2–$6.9<br>Fast-moving daily cleaning consumables</p>
+            </div>
+            <div class="cate-card">
+                <h3>Mini Repair Tool Kit</h3>
+                <p>Wholesale: $5.8–$26.3<br>Multi-purpose household maintenance tools</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 热销单品 -->
+<section class="section" id="hot">
+    <div class="container">
+        <div class="title-box">
+            <h2>Best Selling Items</h2>
+            <p>High repurchase hot products for cross-border stores</p>
+        </div>
+        <div class="cate-grid">
+            <div class="cate-card">
+                <h3>Multi-function Cleaning Kit</h3>
+                <p>Wholesale: $5.9–$16.2<br>Top selling goods for EU & US markets</p>
+            </div>
+            <div class="cate-card">
+                <h3>Space-saving Storage Series</h3>
+                <p>Wholesale: $3.2–$19.9<br>Cross-border e-commerce explosive item</p>
+            </div>
+            <div class="cate-card">
+                <h3>Disposable Daily Combo</h3>
+                <p>Wholesale: $0.5–$7.6<br>Stable all-year market demand</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 关于本店 -->
+<section class="section section-bg" id="about">
+    <div class="container">
+        <div class="title-box">
+            <h2>About Our Store</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>Professional Cross-border Wholesale Merchant</h3>
+                <p>高帅环球商店 specializes in daily department store wholesale & export. We cooperate directly with domestic factories to guarantee stable stock and qualified product quality.</p>
+                <p>We support small trial orders and large customized bulk orders. Our goods export to Europe, America, Southeast Asia and Middle East, with consistent positive feedback from overseas buyers.</p>
+            </div>
+            <div class="about-text">
+                <h3>Our Service Scope</h3>
+                <p>✅ Global daily goods wholesale & retail</p>
+                <p>✅ Supply for cross-border e-commerce shops</p>
+                <p>✅ Supermarket & offline store bulk stocking</p>
+                <p>✅ Private label & customized packaging</p>
+                <p>✅ One-stop cross-border trading solution</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 联系我们（中英文完整地址） -->
+<section class="section" id="contact">
+    <div class="container">
+        <div class="title-box">
+            <h2>Contact Us</h2>
+            <p>Welcome all global buyers for inquiry, quotation & long-term cooperation</p>
+        </div>
+        <div class="contact-info">
+            <p><strong>Store Name：</strong>高帅环球商店</p>
+            <p><strong>WhatsApp：</strong>+8613528782951</p>
+            <p><strong>Business Email：</strong>gao2858483378@gmail.com</p>
+            <p><strong>English Address：</strong>No.9-1, South First Lane, Ledu Road, Labao Town, Liujiang District, Liuzhou City, Guangxi Zhuang Autonomous Region, China</p>
+            <p><strong>中文地址：</strong>中国广西壮族自治区柳州市柳江区拉宝镇乐都路南一巷9-1号</p>
+            <p><strong>Business Hours：</strong>UTC+8 08:00-21:00</p>
+        </div>
+    </div>
+</section>
+
+<!-- 页脚版权 -->
+<footer>
+    <p>© 2026 高帅环球商店. All Rights Reserved. Cross-border Independent Wholesale Website</p>
+</footer>
+
+<script>
+// 导航栏滚动变色
+window.onscroll = function(){
+    let nav = document.getElementById("navbar");
+    if(window.scrollY > 50){
+        nav.classList.add("sticky");
+    }else{
+        nav.classList.remove("sticky");
+    }
+}
+</script>
+</body>
+</html>
